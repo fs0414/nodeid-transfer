@@ -7,7 +7,7 @@ brew install fs0414/tap/nodeid-transfer
 ## Description
 Here's a simple CLI tool that encodes and decodes GraphQL nodeIds using base64
 
-## Use
+## Usese
 ### Encoder
 ```sh
 Encode a node id using base64 encoding.
