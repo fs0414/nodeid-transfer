@@ -54,7 +54,6 @@ release:
 
 brews:
   - repository:
-    owner: fs0414
-    name: homebrew-tap
-    token: "{{ .Env.TAP_GITHUB_TOKEN }}"
-
+      owner: fs0414
+      name: homebrew-tap
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
