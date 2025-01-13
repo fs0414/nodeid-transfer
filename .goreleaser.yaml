@@ -51,3 +51,10 @@ release:
     ---
 
     Released by [GoReleaser](https://github.com/goreleaser/goreleaser).
+
+brews:
+  - repository:
+    owner: fs0414
+    name: homebrew-tap
+    token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+
